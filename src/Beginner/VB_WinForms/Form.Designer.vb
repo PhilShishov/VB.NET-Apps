@@ -449,7 +449,7 @@ Partial Class Form
         Me.Button33.Name = "Button33"
         Me.Button33.Size = New System.Drawing.Size(187, 27)
         Me.Button33.TabIndex = 18
-        Me.Button33.Text = "Show Sum Double -with Val"
+        Me.Button33.Text = "Show Sum Double - with Val"
         Me.Button33.UseVisualStyleBackColor = True
         '
         'Button18
@@ -600,7 +600,7 @@ Partial Class Form
         Me.TextBoxMsg.Name = "TextBoxMsg"
         Me.TextBoxMsg.Size = New System.Drawing.Size(216, 23)
         Me.TextBoxMsg.TabIndex = 1
-        Me.TextBoxMsg.Text = "Mike"
+        Me.TextBoxMsg.Text = "Your Name"
         '
         'Button12
         '

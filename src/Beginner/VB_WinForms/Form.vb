@@ -1,5 +1,4 @@
 ﻿Public Class Form
-
     Private Sub Button5_Click_1(sender As Object, e As EventArgs) Handles Button5.Click
         Me.TextBox2.Text = Date.Now.ToString()
         '--------------------------------------------
@@ -50,69 +49,69 @@
     End Sub
 
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
-        Dim Msg As String = Me.TextBoxMsg.Text
+        Dim msg As String = Me.TextBoxMsg.Text
 
-        MessageBox.Show("Hi: " + Msg + " ; What's Up?")
-        MessageBox.Show("Hi: " + Msg + " ; Are you great?")
-        MessageBox.Show("Hi: " + Msg + " ; What's going on?")
+        MessageBox.Show("Hi: " + msg + " ; What's Up?")
+        MessageBox.Show("Hi: " + msg + " ; Are you great?")
+        MessageBox.Show("Hi: " + msg + " ; What's going on?")
     End Sub
 
     Dim my_var As String
 
     Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
-        Dim N1 As String = Me.TextBoxN1.Text
-        Dim N2 As String = Me.TextBoxN2.Text
+        Dim n1 As String = Me.TextBoxN1.Text
+        Dim n2 As String = Me.TextBoxN2.Text
 
         '-------------------------------
-        Dim Res As String = N1 + N2
-        Me.TextBoxResult.Text = Res.ToString()
+        Dim res As String = n1 + n2
+        Me.TextBoxResult.Text = res.ToString()
     End Sub
 
     Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
-        Dim N1 As Integer
-        Dim N2 As Integer
-        Integer.TryParse(Me.TextBoxN1.Text, N1)
-        Integer.TryParse(Me.TextBoxN2.Text, N2)
+        Dim n1 As Integer
+        Dim n2 As Integer
+        Integer.TryParse(Me.TextBoxN1.Text, n1)
+        Integer.TryParse(Me.TextBoxN2.Text, n2)
         '-------------------------------
-        Dim Res As Integer = N1 + N2
-        Me.TextBoxResult.Text = Res.ToString()
+        Dim res As Integer = n1 + n2
+        Me.TextBoxResult.Text = res.ToString()
     End Sub
 
     Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
-        Dim N1 As Integer
-        Dim N2 As Integer
-        Integer.TryParse(Me.TextBoxN1.Text, N1)
-        Integer.TryParse(Me.TextBoxN2.Text, N2)
+        Dim n1 As Integer
+        Dim n2 As Integer
+        Integer.TryParse(Me.TextBoxN1.Text, n1)
+        Integer.TryParse(Me.TextBoxN2.Text, n2)
         '-------------------------------
-        Dim Res As Integer = N1 + N2
-        Me.TextBoxResult.Text = Res.ToString()
+        Dim res As Integer = n1 + n2
+        Me.TextBoxResult.Text = res.ToString()
 
     End Sub
 
     Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
-        Dim N1 As Double
-        Dim N2 As Double
-        Double.TryParse(Me.TextBoxN1.Text, N1)
-        Double.TryParse(Me.TextBoxN2.Text, N2)
+        Dim n1 As Double
+        Dim n2 As Double
+        Double.TryParse(Me.TextBoxN1.Text, n1)
+        Double.TryParse(Me.TextBoxN2.Text, n2)
         '-------------------------------
-        Dim Res As Double = N1 + N2
-        Me.TextBoxResult.Text = Res.ToString()
+        Dim res As Double = n1 + n2
+        Me.TextBoxResult.Text = res.ToString()
 
     End Sub
 
     Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
-        Dim N1 As Decimal
-        Dim N2 As Decimal
-        Decimal.TryParse(Me.TextBoxN1.Text, N1)
-        Decimal.TryParse(Me.TextBoxN2.Text, N2)
+        Dim n1 As Decimal
+        Dim n2 As Decimal
+        Decimal.TryParse(Me.TextBoxN1.Text, n1)
+        Decimal.TryParse(Me.TextBoxN2.Text, n2)
         '-------------------------------
-        Dim Res As Decimal = N1 + N2
-        Me.TextBoxResult.Text = Res.ToString()
+        Dim res As Decimal = n1 + n2
+        Me.TextBoxResult.Text = res.ToString()
     End Sub
 
     Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
-        Dim B As Boolean = Me.Button17.Enabled
-        MessageBox.Show(B.ToString())
+        Dim b As Boolean = Me.Button17.Enabled
+        MessageBox.Show(b.ToString())
     End Sub
 
     Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
@@ -145,37 +144,37 @@
     End Sub
 
     Private Sub Button25_Click(sender As Object, e As EventArgs) Handles Button25.Click
-        Dim F_Path As String = Me.TextBoxFilePath.Text
+        Dim fPath As String = Me.TextBoxFilePath.Text
 
-        Me.Process1.StartInfo.FileName = F_Path
+        Me.Process1.StartInfo.FileName = fPath
         Me.Process1.Start()
     End Sub
 
     Private Sub Button26_Click(sender As Object, e As EventArgs) Handles Button26.Click
-        Dim Age As Integer
-        Dim BirthYear As Integer
-        Integer.TryParse(Me.TextBoxBirthYear.Text, BirthYear)
-        Age = Date.Now.Year - BirthYear
+        Dim birthYear As Integer
+        Integer.TryParse(Me.TextBoxBirthYear.Text, birthYear)
 
-        If (Age > 30) Then
-            Me.TextBoxAge.Text = "Your Age Is: " + Age.ToString() + " - " + "You are middle aged!"
+        Dim age As Integer = Date.Now.Year - birthYear
+
+        If (age > 30) Then
+            Me.TextBoxAge.Text = "Your Age Is: " + age.ToString() + " - " + "You are middle aged!"
         Else
-            Me.TextBoxAge.Text = "Your Age Is: " + Age.ToString() + " - " + "You are young!"
+            Me.TextBoxAge.Text = "Your Age Is: " + age.ToString() + " - " + "You are young!"
         End If
     End Sub
 
     Private Sub Button27_Click(sender As Object, e As EventArgs) Handles Button27.Click
-        Dim Age As Integer
-        Dim BirthYear As Integer
-        Integer.TryParse(Me.TextBoxBirthYear.Text, BirthYear)
-        Age = Date.Now.Year - BirthYear
+        Dim birthYear As Integer
+        Integer.TryParse(Me.TextBoxBirthYear.Text, birthYear)
 
-        If (Age > 30) Then
-            Me.TextBoxAge.Text = "Your Age Is: " + Age.ToString() + " - " + "You are middle aged!"
-        ElseIf (Age < 30) Then
-            Me.TextBoxAge.Text = "Your Age Is: " + Age.ToString() + " - " + "You are young!"
+        Dim age As Integer = Date.Now.Year - birthYear
+
+        If (age > 30) Then
+            Me.TextBoxAge.Text = "Your Age Is: " + age.ToString() + " - " + "You are middle aged!"
+        ElseIf (age < 30) Then
+            Me.TextBoxAge.Text = "Your Age Is: " + age.ToString() + " - " + "You are young!"
         Else
-            Me.TextBoxAge.Text = "Your Age Is: " + Age.ToString() + " - " + "You are good!"
+            Me.TextBoxAge.Text = "Your Age Is: " + age.ToString() + " - " + "You are good!"
         End If
     End Sub
 
@@ -192,171 +191,171 @@
     End Sub
 
     Private Sub Button30_Click(sender As Object, e As EventArgs) Handles Button30.Click
-        Dim MonthNum As Integer
-        Integer.TryParse(Me.TextBoxMonthNum.Text, MonthNum)
+        Dim monthNum As Integer
+        Integer.TryParse(Me.TextBoxMonthNum.Text, monthNum)
         '----------------------------
-        Dim MonthName As String = "Unknown"
+        Dim monthName As String = "Unknown"
 
-        If (MonthNum = 1) Then
-            MonthName = "January"
+        If (monthNum = 1) Then
+            monthName = "January"
         End If
         '----------------------------
-        If (MonthNum = 2) Then
-            MonthName = "February"
+        If (monthNum = 2) Then
+            monthName = "February"
         End If
         '----------------------------
-        If (MonthNum = 3) Then
-            MonthName = "March"
+        If (monthNum = 3) Then
+            monthName = "March"
         End If
         '----------------------------
-        If (MonthNum = 4) Then
-            MonthName = "April"
+        If (monthNum = 4) Then
+            monthName = "April"
         End If
         '----------------------------
-        If (MonthNum = 5) Then
-            MonthName = "May"
+        If (monthNum = 5) Then
+            monthName = "May"
         End If
         '----------------------------
-        If (MonthNum = 6) Then
-            MonthName = "June"
+        If (monthNum = 6) Then
+            monthName = "June"
         End If
         '----------------------------
-        If (MonthNum = 7) Then
-            MonthName = "July"
+        If (monthNum = 7) Then
+            monthName = "July"
         End If
         '----------------------------
-        If (MonthNum = 8) Then
-            MonthName = "August"
+        If (monthNum = 8) Then
+            monthName = "August"
         End If
         '----------------------------
-        If (MonthNum = 9) Then
-            MonthName = "September"
+        If (monthNum = 9) Then
+            monthName = "September"
         End If
         '----------------------------
-        If (MonthNum = 10) Then
-            MonthName = "October"
+        If (monthNum = 10) Then
+            monthName = "October"
         End If
         '----------------------------
-        If (MonthNum = 11) Then
-            MonthName = "November"
+        If (monthNum = 11) Then
+            monthName = "November"
         End If
         '----------------------------
-        If (MonthNum = 12) Then
-            MonthName = "December"
+        If (monthNum = 12) Then
+            monthName = "December"
         End If
         '----------------------------
-        Me.TextBoxMonthName.Text = MonthName
+        Me.TextBoxMonthName.Text = monthName
     End Sub
 
     Private Sub Button31_Click(sender As Object, e As EventArgs) Handles Button31.Click
-        Dim MonthNum As Integer
-        Integer.TryParse(Me.TextBoxMonthNum.Text, MonthNum)
-        Dim MonthName As String
+        Dim monthNum As Integer
+        Integer.TryParse(Me.TextBoxMonthNum.Text, monthNum)
+        Dim monthName As String
 
         '----------------------------
-        Select Case MonthNum
+        Select Case monthNum
             Case 1
-                MonthName = "January"
+                monthName = "January"
 
             Case 2
-                MonthName = "February"
+                monthName = "February"
 
             Case 3
-                MonthName = "March"
+                monthName = "March"
 
             Case 4
-                MonthName = "April"
+                monthName = "April"
 
             Case 5
-                MonthName = "May"
+                monthName = "May"
 
             Case 6
-                MonthName = "June"
+                monthName = "June"
 
             Case 7
-                MonthName = "July"
+                monthName = "July"
 
             Case 8
-                MonthName = "August"
+                monthName = "August"
 
             Case 9
-                MonthName = "September"
+                monthName = "September"
 
             Case 10
-                MonthName = "October"
+                monthName = "October"
 
             Case 11
-                MonthName = "November"
+                monthName = "November"
 
             Case 12
-                MonthName = "December"
+                monthName = "December"
             Case Else
-                MonthName = "Unknown"
+                monthName = "Unknown"
         End Select
         '------------------------
-        Me.TextBoxMonthName.Text = MonthName
+        Me.TextBoxMonthName.Text = monthName
     End Sub
 
     Private Sub Button32_Click(sender As Object, e As EventArgs) Handles Button32.Click
-        Dim MonthName As String = Me.TextBoxMyMonth.Text.ToLower()
+        Dim monthName As String = Me.TextBoxMyMonth.Text.ToLower()
         '--------------------------------
-        Dim MonthNum As Integer
+        Dim monthNum As Integer
 
-        Select Case MonthName
+        Select Case monthName
 
             Case "january"
-                MonthNum = 1
+                monthNum = 1
 
             Case "february"
-                MonthNum = 2
+                monthNum = 2
 
             Case "march"
-                MonthNum = 3
+                monthNum = 3
 
             Case "april"
-                MonthNum = 4
+                monthNum = 4
 
             Case "may"
-                MonthNum = 5
+                monthNum = 5
 
             Case "june"
-                MonthNum = 6
+                monthNum = 6
 
             Case "july"
-                MonthNum = 7
+                monthNum = 7
 
             Case "august"
-                MonthNum = 8
+                monthNum = 8
 
             Case "september"
-                MonthNum = 9
+                monthNum = 9
 
             Case "october"
-                MonthNum = 10
+                monthNum = 10
 
             Case "november"
-                MonthNum = 11
+                monthNum = 11
 
             Case "december"
-                MonthNum = 12
+                monthNum = 12
 
             Case Else
-                MonthNum = -1
+                monthNum = -1
         End Select
         '---------------------------
-        If (MonthNum = -1) Then
+        If (monthNum = -1) Then
             Me.TextBoxMyMonthNum.Text = "Invalid Month Name!"
         Else
-            Me.TextBoxMyMonthNum.Text = MonthNum.ToString()
+            Me.TextBoxMyMonthNum.Text = monthNum.ToString()
         End If
         '---------------------------
     End Sub
 
     Private Sub Button33_Click(sender As Object, e As EventArgs) Handles Button33.Click
-        Dim N1 As Double = Val(Me.TextBoxN1.Text)
-        Dim N2 As Double = Val(Me.TextBoxN2.Text)
+        Dim n1 As Double = Val(Me.TextBoxN1.Text)
+        Dim n2 As Double = Val(Me.TextBoxN2.Text)
 
-        Dim Res As Double = N1 + N2
-        Me.TextBoxResult.Text = Res.ToString()
+        Dim res As Double = n1 + n2
+        Me.TextBoxResult.Text = res.ToString()
     End Sub
 End Class
