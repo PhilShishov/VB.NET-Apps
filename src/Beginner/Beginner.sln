@@ -13,9 +13,9 @@ Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "CustomMenuStrip", "CustomMe
 EndProject
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "VB_WinForms", "VB_WinForms\VB_WinForms.vbproj", "{00E1D109-E6C1-4E5F-B411-AF87F037E927}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Dialog", "Dialog\Dialog.vbproj", "{B85FEBEA-EF50-4377-B923-4DB390C6C686}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Dialog", "Dialog\Dialog.vbproj", "{B85FEBEA-EF50-4377-B923-4DB390C6C686}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Calculator", "Calculator\Calculator.vbproj", "{8E01EF76-04B3-4A5A-B3C4-E693511E790A}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Calculator", "Calculator\Calculator.vbproj", "{8E01EF76-04B3-4A5A-B3C4-E693511E790A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
