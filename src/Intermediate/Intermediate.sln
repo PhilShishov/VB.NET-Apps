@@ -5,9 +5,13 @@ VisualStudioVersion = 16.0.30709.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "VB_Event", "VB_Event\VB_Event.vbproj", "{8C0470A0-7A68-4FA3-8B64-5CF74AE84174}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB_ComboBox", "VB_ComboBox\VB_ComboBox.vbproj", "{04C5D3C7-FAF6-4EB0-BEA1-E0A21AA15C81}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "VB_ComboBox", "VB_ComboBox\VB_ComboBox.vbproj", "{04C5D3C7-FAF6-4EB0-BEA1-E0A21AA15C81}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB_IOFile", "VB_IOFile\VB_IOFile.vbproj", "{BF7F497E-1627-4C87-97C9-C9F47939E38C}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "VB_IOFile", "VB_IOFile\VB_IOFile.vbproj", "{BF7F497E-1627-4C87-97C9-C9F47939E38C}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "VB_TextFile", "VB_TextFile\VB_TextFile.vbproj", "{CF97D83C-9CB3-459E-941D-1BF0A800AED6}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB_InfoFile", "VB_InfoFile\VB_InfoFile.vbproj", "{2E4FEBB7-1895-4D8F-81E1-DCE66C02E797}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{BF7F497E-1627-4C87-97C9-C9F47939E38C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF7F497E-1627-4C87-97C9-C9F47939E38C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF7F497E-1627-4C87-97C9-C9F47939E38C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF97D83C-9CB3-459E-941D-1BF0A800AED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF97D83C-9CB3-459E-941D-1BF0A800AED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF97D83C-9CB3-459E-941D-1BF0A800AED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF97D83C-9CB3-459E-941D-1BF0A800AED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4FEBB7-1895-4D8F-81E1-DCE66C02E797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4FEBB7-1895-4D8F-81E1-DCE66C02E797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4FEBB7-1895-4D8F-81E1-DCE66C02E797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4FEBB7-1895-4D8F-81E1-DCE66C02E797}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
