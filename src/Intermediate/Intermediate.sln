@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "VB_Event", "VB_Event\VB_Event.vbproj", "{8C0470A0-7A68-4FA3-8B64-5CF74AE84174}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB_ComboBox", "VB_ComboBox\VB_ComboBox.vbproj", "{04C5D3C7-FAF6-4EB0-BEA1-E0A21AA15C81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C0470A0-7A68-4FA3-8B64-5CF74AE84174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0470A0-7A68-4FA3-8B64-5CF74AE84174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0470A0-7A68-4FA3-8B64-5CF74AE84174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0470A0-7A68-4FA3-8B64-5CF74AE84174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C5D3C7-FAF6-4EB0-BEA1-E0A21AA15C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C5D3C7-FAF6-4EB0-BEA1-E0A21AA15C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C5D3C7-FAF6-4EB0-BEA1-E0A21AA15C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C5D3C7-FAF6-4EB0-BEA1-E0A21AA15C81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F945781E-E110-42AA-A699-690B30899004}
+	EndGlobalSection
+EndGlobal
