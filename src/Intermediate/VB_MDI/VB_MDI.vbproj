@@ -8,6 +8,7 @@
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <ApplicationIcon>icon_DynamoDB.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
