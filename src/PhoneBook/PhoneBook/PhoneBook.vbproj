@@ -3,12 +3,11 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
-    <RootNamespace>VB_MDI</RootNamespace>
-    <StartupObject>VB_MDI.MainForm</StartupObject>
+    <RootNamespace>PhoneBook</RootNamespace>
+    <StartupObject>PhoneBook.PhoneBookForm</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
-    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
-    <ApplicationIcon>icon_DynamoDB.ico</ApplicationIcon>
+    <ApplicationIcon>phone.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,18 +30,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Update="My Project\Resources.resx">
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="My Project\Application.myapp">
-      <Generator>MyApplicationCodeGenerator</Generator>
-      <LastGenOutput>Application.Designer.vb</LastGenOutput>
-    </None>
   </ItemGroup>
 
 </Project>
