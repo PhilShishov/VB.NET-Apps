@@ -1,0 +1,9 @@
+Consider the following while backing up:
+
+
+1. Be sure to display the message of success after completing the backup. Otherwise there is a problem. Try again
+2. No error should be displayed when backing up. An error means no backups
+3. Be sure to back up the information at different times. In any circumstances and at any time, the responsibility for the loss of information is at your own risk
+
+
+Warning: Before you change Windows and remove the program, be sure to  copy the installation folder and keep it safe.

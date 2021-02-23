@@ -147,13 +147,13 @@ Partial Class MenuStripForm
         Me.ToolStripMenuItem4.Size = New System.Drawing.Size(56, 20)
         Me.ToolStripMenuItem4.Text = "Project"
         '
-        'Form1
+        'MenuStripForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.MenuStrip2)
-        Me.Name = "Form1"
+        Me.Name = "MenuStripForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Menu Strip"
         Me.MenuStrip2.ResumeLayout(False)

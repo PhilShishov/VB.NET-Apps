@@ -37,8 +37,9 @@ Partial Class BackupForm
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(236, 6)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label1.Location = New System.Drawing.Point(275, 7)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(236, 13)
         Me.Label1.TabIndex = 0
@@ -50,8 +51,9 @@ Partial Class BackupForm
         Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label2.Location = New System.Drawing.Point(-2, 0)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(691, 114)
+        Me.Label2.Size = New System.Drawing.Size(806, 131)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = resources.GetString("Label2.Text")
         '
@@ -59,9 +61,10 @@ Partial Class BackupForm
         '
         Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label3.Location = New System.Drawing.Point(0, 114)
+        Me.Label3.Location = New System.Drawing.Point(0, 132)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(691, 28)
+        Me.Label3.Size = New System.Drawing.Size(806, 32)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Warning: Before you change Windows and remove the program, be sure to  copy the i" &
     "nstallation folder and keep it safe."
@@ -69,9 +72,10 @@ Partial Class BackupForm
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(37, 159)
+        Me.Button1.Location = New System.Drawing.Point(43, 183)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 22)
+        Me.Button1.Size = New System.Drawing.Size(88, 25)
         Me.Button1.TabIndex = 3
         Me.Button1.Text = "Browse"
         Me.Button1.UseVisualStyleBackColor = True
@@ -80,9 +84,10 @@ Partial Class BackupForm
         '
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button2.Location = New System.Drawing.Point(76, 200)
+        Me.Button2.Location = New System.Drawing.Point(89, 231)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(125, 42)
+        Me.Button2.Size = New System.Drawing.Size(146, 48)
         Me.Button2.TabIndex = 4
         Me.Button2.Text = "Backup && Exit"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -92,9 +97,10 @@ Partial Class BackupForm
         '
         Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button3.Location = New System.Drawing.Point(218, 200)
+        Me.Button3.Location = New System.Drawing.Point(254, 231)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(68, 42)
+        Me.Button3.Size = New System.Drawing.Size(79, 48)
         Me.Button3.TabIndex = 5
         Me.Button3.Text = "Exit"
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -104,9 +110,10 @@ Partial Class BackupForm
         '
         Me.Button4.Image = CType(resources.GetObject("Button4.Image"), System.Drawing.Image)
         Me.Button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button4.Location = New System.Drawing.Point(447, 200)
+        Me.Button4.Location = New System.Drawing.Point(522, 231)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(69, 42)
+        Me.Button4.Size = New System.Drawing.Size(80, 48)
         Me.Button4.TabIndex = 6
         Me.Button4.Text = "Help"
         Me.Button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -114,17 +121,18 @@ Partial Class BackupForm
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(128, 160)
+        Me.TextBox1.Location = New System.Drawing.Point(149, 185)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(540, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(629, 23)
         Me.TextBox1.TabIndex = 7
         '
         'BackupForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(690, 252)
+        Me.ClientSize = New System.Drawing.Size(805, 291)
         Me.ControlBox = False
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button4)
@@ -134,7 +142,7 @@ Partial Class BackupForm
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label2)
-        Me.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Name = "BackupForm"
         Me.ShowIcon = False
         Me.Text = "Backup the Database"
