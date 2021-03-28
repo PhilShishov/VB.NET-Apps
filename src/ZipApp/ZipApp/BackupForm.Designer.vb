@@ -23,12 +23,12 @@ Partial Class BackupForm
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.PanelProgress = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.ProgressBar2 = New System.Windows.Forms.ProgressBar()
-        Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
+        Me.LabelOverall = New System.Windows.Forms.Label()
+        Me.LabelSub = New System.Windows.Forms.Label()
+        Me.ProgressBarOverall = New System.Windows.Forms.ProgressBar()
+        Me.ProgressBarSub = New System.Windows.Forms.ProgressBar()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
@@ -37,12 +37,12 @@ Partial Class BackupForm
         Me.Button1 = New System.Windows.Forms.Button()
         Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
         Me.GroupBox1.SuspendLayout()
-        Me.Panel1.SuspendLayout()
+        Me.PanelProgress.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.Panel1)
+        Me.GroupBox1.Controls.Add(Me.PanelProgress)
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Controls.Add(Me.Button3)
         Me.GroupBox1.Controls.Add(Me.Button2)
@@ -54,21 +54,21 @@ Partial Class BackupForm
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Info"
         '
-        'Panel1
+        'PanelProgress
         '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel1.Controls.Add(Me.Panel2)
-        Me.Panel1.Controls.Add(Me.Label4)
-        Me.Panel1.Controls.Add(Me.Label3)
-        Me.Panel1.Controls.Add(Me.ProgressBar2)
-        Me.Panel1.Controls.Add(Me.ProgressBar1)
-        Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Location = New System.Drawing.Point(218, 46)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(280, 141)
-        Me.Panel1.TabIndex = 4
-        Me.Panel1.Visible = False
+        Me.PanelProgress.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.PanelProgress.Controls.Add(Me.Panel2)
+        Me.PanelProgress.Controls.Add(Me.LabelOverall)
+        Me.PanelProgress.Controls.Add(Me.LabelSub)
+        Me.PanelProgress.Controls.Add(Me.ProgressBarOverall)
+        Me.PanelProgress.Controls.Add(Me.ProgressBarSub)
+        Me.PanelProgress.Controls.Add(Me.Label2)
+        Me.PanelProgress.Controls.Add(Me.Label1)
+        Me.PanelProgress.Location = New System.Drawing.Point(218, 46)
+        Me.PanelProgress.Name = "PanelProgress"
+        Me.PanelProgress.Size = New System.Drawing.Size(280, 141)
+        Me.PanelProgress.TabIndex = 4
+        Me.PanelProgress.Visible = False
         '
         'Panel2
         '
@@ -78,37 +78,37 @@ Partial Class BackupForm
         Me.Panel2.Size = New System.Drawing.Size(280, 1)
         Me.Panel2.TabIndex = 6
         '
-        'Label4
+        'LabelOverall
         '
-        Me.Label4.Location = New System.Drawing.Point(223, 115)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(52, 15)
-        Me.Label4.TabIndex = 5
-        Me.Label4.Text = "0"
-        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.LabelOverall.Location = New System.Drawing.Point(223, 115)
+        Me.LabelOverall.Name = "LabelOverall"
+        Me.LabelOverall.Size = New System.Drawing.Size(52, 15)
+        Me.LabelOverall.TabIndex = 5
+        Me.LabelOverall.Text = "0"
+        Me.LabelOverall.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label3
+        'LabelSub
         '
-        Me.Label3.Location = New System.Drawing.Point(223, 87)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(52, 15)
-        Me.Label3.TabIndex = 4
-        Me.Label3.Text = "0"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.LabelSub.Location = New System.Drawing.Point(223, 87)
+        Me.LabelSub.Name = "LabelSub"
+        Me.LabelSub.Size = New System.Drawing.Size(52, 15)
+        Me.LabelSub.TabIndex = 4
+        Me.LabelSub.Text = "0"
+        Me.LabelSub.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'ProgressBar2
+        'ProgressBarOverall
         '
-        Me.ProgressBar2.Location = New System.Drawing.Point(11, 110)
-        Me.ProgressBar2.Name = "ProgressBar2"
-        Me.ProgressBar2.Size = New System.Drawing.Size(206, 23)
-        Me.ProgressBar2.TabIndex = 3
+        Me.ProgressBarOverall.Location = New System.Drawing.Point(11, 110)
+        Me.ProgressBarOverall.Name = "ProgressBarOverall"
+        Me.ProgressBarOverall.Size = New System.Drawing.Size(206, 23)
+        Me.ProgressBarOverall.TabIndex = 3
         '
-        'ProgressBar1
+        'ProgressBarSub
         '
-        Me.ProgressBar1.Location = New System.Drawing.Point(11, 81)
-        Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(206, 23)
-        Me.ProgressBar1.TabIndex = 2
+        Me.ProgressBarSub.Location = New System.Drawing.Point(11, 81)
+        Me.ProgressBarSub.Name = "ProgressBarSub"
+        Me.ProgressBarSub.Size = New System.Drawing.Size(206, 23)
+        Me.ProgressBarSub.TabIndex = 2
         '
         'Label2
         '
@@ -183,8 +183,8 @@ Partial Class BackupForm
         Me.Text = "Backup Data"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
+        Me.PanelProgress.ResumeLayout(False)
+        Me.PanelProgress.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -194,11 +194,11 @@ Partial Class BackupForm
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents ProgressBar2 As ProgressBar
-    Friend WithEvents ProgressBar1 As ProgressBar
+    Friend WithEvents PanelProgress As Panel
+    Friend WithEvents LabelOverall As Label
+    Friend WithEvents LabelSub As Label
+    Friend WithEvents ProgressBarOverall As ProgressBar
+    Friend WithEvents ProgressBarSub As ProgressBar
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Panel2 As Panel
