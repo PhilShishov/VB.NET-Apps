@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>ZipApp</RootNamespace>
-    <StartupObject>ZipApp.BackupForm</StartupObject>
+    <StartupObject>ZipApp.ZipForm</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
   </PropertyGroup>

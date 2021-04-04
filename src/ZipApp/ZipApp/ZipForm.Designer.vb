@@ -25,41 +25,80 @@ Partial Class ZipForm
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Button1.Location = New System.Drawing.Point(180, 87)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(119, 34)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Create Zip File"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
+        Me.Button2.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Button2.Location = New System.Drawing.Point(162, 127)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(159, 40)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "Create Unicode Zip File"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(162, 304)
+        Me.Button3.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Button3.Location = New System.Drawing.Point(122, 208)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(159, 40)
+        Me.Button3.Size = New System.Drawing.Size(240, 40)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "Add Folder to Zip"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Button4.Location = New System.Drawing.Point(162, 267)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(159, 40)
+        Me.Button4.TabIndex = 4
+        Me.Button4.Text = "Extract Zip File"
+        Me.Button4.UseVisualStyleBackColor = False
+        '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Button5.Location = New System.Drawing.Point(162, 348)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(159, 40)
+        Me.Button5.TabIndex = 5
+        Me.Button5.Text = "Backup"
+        Me.Button5.UseVisualStyleBackColor = False
+        '
+        'Button6
+        '
+        Me.Button6.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Button6.Location = New System.Drawing.Point(162, 400)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(159, 40)
+        Me.Button6.TabIndex = 6
+        Me.Button6.Text = "Restore"
+        Me.Button6.UseVisualStyleBackColor = False
         '
         'ZipForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.BackColor = System.Drawing.Color.LightBlue
         Me.ClientSize = New System.Drawing.Size(496, 452)
+        Me.Controls.Add(Me.Button6)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -76,4 +115,7 @@ Partial Class ZipForm
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Button6 As Button
 End Class
