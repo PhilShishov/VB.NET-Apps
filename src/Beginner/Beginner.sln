@@ -32,6 +32,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{
 		images\iconfinder_settings.ico = images\iconfinder_settings.ico
 		images\Internet.ico = images\Internet.ico
 		images\koala.jpg = images\koala.jpg
+		..\..\..\..\Downloads\Project+Powerpoint+Slideshows.zip = ..\..\..\..\Downloads\Project+Powerpoint+Slideshows.zip
 		images\undo.png = images\undo.png
 	EndProjectSection
 EndProject
@@ -64,6 +65,18 @@ EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CarLoan", "CarLoan\CarLoan.vbproj", "{BB96E95D-3F73-4C7F-8FD6-4A07E44A4D59}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UnitPrice", "UnitPrice\UnitPrice.vbproj", "{318B7988-192A-415C-8337-B82D5CC5E8FF}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RentalCost", "RentalCost\RentalCost.vbproj", "{492A5E08-E808-4C5A-B168-9455D7E7323E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Nutrition", "Nutrition\Nutrition.vbproj", "{3FE73B36-5F63-4B8E-B47A-61A940D459A0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CarLoanPartTwo", "CarLoanPartTwo\CarLoanPartTwo.vbproj", "{00ED12F8-807D-4400-9B09-3299880BED67}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "QuadraticEquation", "QuadraticEquation\QuadraticEquation.vbproj", "{8FB10C8E-8E02-476A-9F7C-1058FB02BBE4}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RestaurantMenu", "RestaurantMenu\RestaurantMenu.vbproj", "{1023CF01-15BC-4B14-AF19-C359545BEF54}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CollegeAdmissions", "CollegeAdmissions\CollegeAdmissions.vbproj", "{B7664948-8761-421F-BECA-201FD4EED09F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -119,6 +132,30 @@ Global
 		{318B7988-192A-415C-8337-B82D5CC5E8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{318B7988-192A-415C-8337-B82D5CC5E8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{318B7988-192A-415C-8337-B82D5CC5E8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{492A5E08-E808-4C5A-B168-9455D7E7323E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{492A5E08-E808-4C5A-B168-9455D7E7323E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{492A5E08-E808-4C5A-B168-9455D7E7323E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{492A5E08-E808-4C5A-B168-9455D7E7323E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FE73B36-5F63-4B8E-B47A-61A940D459A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE73B36-5F63-4B8E-B47A-61A940D459A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE73B36-5F63-4B8E-B47A-61A940D459A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE73B36-5F63-4B8E-B47A-61A940D459A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00ED12F8-807D-4400-9B09-3299880BED67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00ED12F8-807D-4400-9B09-3299880BED67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00ED12F8-807D-4400-9B09-3299880BED67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00ED12F8-807D-4400-9B09-3299880BED67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB10C8E-8E02-476A-9F7C-1058FB02BBE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB10C8E-8E02-476A-9F7C-1058FB02BBE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB10C8E-8E02-476A-9F7C-1058FB02BBE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB10C8E-8E02-476A-9F7C-1058FB02BBE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1023CF01-15BC-4B14-AF19-C359545BEF54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1023CF01-15BC-4B14-AF19-C359545BEF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1023CF01-15BC-4B14-AF19-C359545BEF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1023CF01-15BC-4B14-AF19-C359545BEF54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7664948-8761-421F-BECA-201FD4EED09F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7664948-8761-421F-BECA-201FD4EED09F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7664948-8761-421F-BECA-201FD4EED09F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7664948-8761-421F-BECA-201FD4EED09F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
