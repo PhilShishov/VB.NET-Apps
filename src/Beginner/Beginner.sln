@@ -17,66 +17,81 @@ Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Dialog", "Dialog\Dialog.vbp
 EndProject
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Calculator", "Calculator\Calculator.vbproj", "{8E01EF76-04B3-4A5A-B3C4-E693511E790A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{74AB4998-80A2-4B5D-9ACB-B838A8544BF7}"
-	ProjectSection(SolutionItems) = preProject
-		images\back_pro.bmp = images\back_pro.bmp
-		images\backup_text.txt = images\backup_text.txt
-		images\bullet-red.png = images\bullet-red.png
-		images\bullet_red_2.png = images\bullet_red_2.png
-		images\calender.png = images\calender.png
-		images\db.png = images\db.png
-		images\exit.png = images\exit.png
-		images\help.png = images\help.png
-		images\help_2.png = images\help_2.png
-		images\iconfinder.ico = images\iconfinder.ico
-		images\iconfinder_settings.ico = images\iconfinder_settings.ico
-		images\Internet.ico = images\Internet.ico
-		images\koala.jpg = images\koala.jpg
-		..\..\..\..\Downloads\Project+Powerpoint+Slideshows.zip = ..\..\..\..\Downloads\Project+Powerpoint+Slideshows.zip
-		images\undo.png = images\undo.png
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "buttons", "buttons", "{0E56BB83-FEFC-4695-A14C-3EA1D4B01F05}"
-	ProjectSection(SolutionItems) = preProject
-		images\buttons\cancel.png = images\buttons\cancel.png
-		images\buttons\delete.png = images\buttons\delete.png
-		images\buttons\edit.png = images\buttons\edit.png
-		images\buttons\floppy.png = images\buttons\floppy.png
-		images\buttons\new.png = images\buttons\new.png
-		images\buttons\new_2.png = images\buttons\new_2.png
-		images\buttons\save.png = images\buttons\save.png
-		images\buttons\save_2.png = images\buttons\save_2.png
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "buttons_bg", "buttons_bg", "{91FE4D9C-543D-4CCB-96CE-D73B50A44163}"
-	ProjectSection(SolutionItems) = preProject
-		images\buttons_bg\btn_bg.png = images\buttons_bg\btn_bg.png
-		images\buttons_bg\btn_bg_2.png = images\buttons_bg\btn_bg_2.png
-		images\buttons_bg\btn_bg_3.png = images\buttons_bg\btn_bg_3.png
-		images\buttons_bg\btn_bg_4.png = images\buttons_bg\btn_bg_4.png
-	EndProjectSection
-EndProject
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "RepairBill", "RepairBill\RepairBill.vbproj", "{3252C119-C205-46A8-A668-01FBCA21D672}"
 EndProject
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "ChangeForADollar", "ChangeForADollar\ChangeForADollar.vbproj", "{1FE28B2D-4DC5-4BE1-8A2F-6D51A9B7DC08}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LengthConversion", "LengthConversion\LengthConversion.vbproj", "{D0D3C6A9-9961-470C-BD50-4FD1CC1B2301}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "LengthConversion", "LengthConversion\LengthConversion.vbproj", "{D0D3C6A9-9961-470C-BD50-4FD1CC1B2301}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CarLoan", "CarLoan\CarLoan.vbproj", "{BB96E95D-3F73-4C7F-8FD6-4A07E44A4D59}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "CarLoan", "CarLoan\CarLoan.vbproj", "{BB96E95D-3F73-4C7F-8FD6-4A07E44A4D59}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UnitPrice", "UnitPrice\UnitPrice.vbproj", "{318B7988-192A-415C-8337-B82D5CC5E8FF}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "UnitPrice", "UnitPrice\UnitPrice.vbproj", "{318B7988-192A-415C-8337-B82D5CC5E8FF}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RentalCost", "RentalCost\RentalCost.vbproj", "{492A5E08-E808-4C5A-B168-9455D7E7323E}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "RentalCost", "RentalCost\RentalCost.vbproj", "{492A5E08-E808-4C5A-B168-9455D7E7323E}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Nutrition", "Nutrition\Nutrition.vbproj", "{3FE73B36-5F63-4B8E-B47A-61A940D459A0}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Nutrition", "Nutrition\Nutrition.vbproj", "{3FE73B36-5F63-4B8E-B47A-61A940D459A0}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CarLoanPartTwo", "CarLoanPartTwo\CarLoanPartTwo.vbproj", "{00ED12F8-807D-4400-9B09-3299880BED67}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "CarLoanPartTwo", "CarLoanPartTwo\CarLoanPartTwo.vbproj", "{00ED12F8-807D-4400-9B09-3299880BED67}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "QuadraticEquation", "QuadraticEquation\QuadraticEquation.vbproj", "{8FB10C8E-8E02-476A-9F7C-1058FB02BBE4}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "QuadraticEquation", "QuadraticEquation\QuadraticEquation.vbproj", "{8FB10C8E-8E02-476A-9F7C-1058FB02BBE4}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RestaurantMenu", "RestaurantMenu\RestaurantMenu.vbproj", "{1023CF01-15BC-4B14-AF19-C359545BEF54}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "RestaurantMenu", "RestaurantMenu\RestaurantMenu.vbproj", "{1023CF01-15BC-4B14-AF19-C359545BEF54}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CollegeAdmissions", "CollegeAdmissions\CollegeAdmissions.vbproj", "{B7664948-8761-421F-BECA-201FD4EED09F}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "CollegeAdmissions", "CollegeAdmissions\CollegeAdmissions.vbproj", "{B7664948-8761-421F-BECA-201FD4EED09F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{411E94CB-15DB-475A-8418-863FA9A46AD9}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\back_pro.bmp = Resources\back_pro.bmp
+		Resources\backup_text.txt = Resources\backup_text.txt
+		Resources\bullet-red.png = Resources\bullet-red.png
+		Resources\bullet_red_2.png = Resources\bullet_red_2.png
+		Resources\calender.png = Resources\calender.png
+		Resources\db.png = Resources\db.png
+		Resources\exit.png = Resources\exit.png
+		Resources\help.png = Resources\help.png
+		Resources\help_2.png = Resources\help_2.png
+		Resources\iconfinder.ico = Resources\iconfinder.ico
+		Resources\iconfinder_settings.ico = Resources\iconfinder_settings.ico
+		Resources\Internet.ico = Resources\Internet.ico
+		Resources\koala.jpg = Resources\koala.jpg
+		Resources\undo.png = Resources\undo.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "buttons", "buttons", "{1BE51354-52F0-4135-8351-950EAEDBDF0B}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\buttons\cancel.png = Resources\buttons\cancel.png
+		Resources\buttons\delete.png = Resources\buttons\delete.png
+		Resources\buttons\edit.png = Resources\buttons\edit.png
+		Resources\buttons\floppy.png = Resources\buttons\floppy.png
+		Resources\buttons\new.png = Resources\buttons\new.png
+		Resources\buttons\new_2.png = Resources\buttons\new_2.png
+		Resources\buttons\save.png = Resources\buttons\save.png
+		Resources\buttons\save_2.png = Resources\buttons\save_2.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "buttons_bg", "buttons_bg", "{AE906CAD-1858-4327-8C10-34DB38BA6525}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\buttons_bg\btn_bg.png = Resources\buttons_bg\btn_bg.png
+		Resources\buttons_bg\btn_bg_2.png = Resources\buttons_bg\btn_bg_2.png
+		Resources\buttons_bg\btn_bg_3.png = Resources\buttons_bg\btn_bg_3.png
+		Resources\buttons_bg\btn_bg_4.png = Resources\buttons_bg\btn_bg_4.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Slides", "Slides", "{78A56B82-C9FE-48ED-8FD3-EE4BA7CD29EF}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\Slides\01-01-Calculator.pptx = Resources\Slides\01-01-Calculator.pptx
+		Resources\Slides\01-02-RepairBill.pptx = Resources\Slides\01-02-RepairBill.pptx
+		Resources\Slides\01-03-ChangeForDollar.pptx = Resources\Slides\01-03-ChangeForDollar.pptx
+		Resources\Slides\01-04-LengthConversion.pptx = Resources\Slides\01-04-LengthConversion.pptx
+		Resources\Slides\01-05-CarLoan.pptx = Resources\Slides\01-05-CarLoan.pptx
+		Resources\Slides\01-06-UnitPrice.pptx = Resources\Slides\01-06-UnitPrice.pptx
+		Resources\Slides\02-01-RentalCost.pptx = Resources\Slides\02-01-RentalCost.pptx
+		Resources\Slides\02-02-Nutrition.pptx = Resources\Slides\02-02-Nutrition.pptx
+		Resources\Slides\02-03-CarLoan.pptx = Resources\Slides\02-03-CarLoan.pptx
+		Resources\Slides\02-04-QuadraticEquation.pptx = Resources\Slides\02-04-QuadraticEquation.pptx
+		Resources\Slides\02-05-RestaurantMenu.pptx = Resources\Slides\02-05-RestaurantMenu.pptx
+		Resources\Slides\02-06-CollegeAdmissions.pptx = Resources\Slides\02-06-CollegeAdmissions.pptx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -161,8 +176,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{0E56BB83-FEFC-4695-A14C-3EA1D4B01F05} = {74AB4998-80A2-4B5D-9ACB-B838A8544BF7}
-		{91FE4D9C-543D-4CCB-96CE-D73B50A44163} = {74AB4998-80A2-4B5D-9ACB-B838A8544BF7}
+		{1BE51354-52F0-4135-8351-950EAEDBDF0B} = {411E94CB-15DB-475A-8418-863FA9A46AD9}
+		{AE906CAD-1858-4327-8C10-34DB38BA6525} = {411E94CB-15DB-475A-8418-863FA9A46AD9}
+		{78A56B82-C9FE-48ED-8FD3-EE4BA7CD29EF} = {411E94CB-15DB-475A-8418-863FA9A46AD9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FC2B3F94-2E20-4946-92D1-AAB601209E59}
