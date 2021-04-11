@@ -11,9 +11,38 @@ Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "VB_IOFile", "VB_IOFile\VB_I
 EndProject
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "VB_TextFile", "VB_TextFile\VB_TextFile.vbproj", "{CF97D83C-9CB3-459E-941D-1BF0A800AED6}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB_InfoFile", "VB_InfoFile\VB_InfoFile.vbproj", "{2E4FEBB7-1895-4D8F-81E1-DCE66C02E797}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "VB_InfoFile", "VB_InfoFile\VB_InfoFile.vbproj", "{2E4FEBB7-1895-4D8F-81E1-DCE66C02E797}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB_MDI", "VB_MDI\VB_MDI.vbproj", "{ED54EC30-8260-40C8-8C08-4E8194E11E6F}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "VB_MDI", "VB_MDI\VB_MDI.vbproj", "{ED54EC30-8260-40C8-8C08-4E8194E11E6F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Baseball", "Baseball\Baseball.vbproj", "{E9DAD3FC-3537-490B-AAF5-29A697684A12}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "USSenate", "USSenate\USSenate.vbproj", "{3E9578DD-A61D-4C18-A1CC-EFC38AA3B2FF}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FileOfNames", "FileOfNames\FileOfNames.vbproj", "{F51EE8BB-FD9C-4B83-880E-DE6B6D0DECDE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TelephoneDirectories", "TelephoneDirectories\TelephoneDirectories.vbproj", "{E473B1A1-E654-474F-9581-D9B690932D05}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UniversalProductCode", "UniversalProductCode\UniversalProductCode.vbproj", "{1FAD28FB-BCF1-41A8-A946-0FD475A798FC}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BaseballPartTwo", "BaseballPartTwo\BaseballPartTwo.vbproj", "{DC277A5D-EE95-4A17-A40A-4C281B746253}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{691B20B2-CDF9-4D5E-9064-E1657017B986}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\06-01-Baseball.pptx = Resources\06-01-Baseball.pptx
+		Resources\06-02-USSenate.pptx = Resources\06-02-USSenate.pptx
+		Resources\06-03-FileOfNames.pptx = Resources\06-03-FileOfNames.pptx
+		Resources\06-04-TelephoneDirectories.pptx = Resources\06-04-TelephoneDirectories.pptx
+		Resources\06-05-UPC.pptx = Resources\06-05-UPC.pptx
+		Resources\06-06-Baseball.pptx = Resources\06-06-Baseball.pptx
+		Resources\07-01-MembershipList.pptx = Resources\07-01-MembershipList.pptx
+		Resources\07-02-VotingMachine.pptx = Resources\07-02-VotingMachine.pptx
+		Resources\07-03-InventoryControl.pptx = Resources\07-03-InventoryControl.pptx
+		Resources\07-04-AirplaneSeatingChart.pptx = Resources\07-04-AirplaneSeatingChart.pptx
+		Resources\07-05-UnderdogAndWorldSeries.pptx = Resources\07-05-UnderdogAndWorldSeries.pptx
+		Resources\07-06-SpreadOfEpidemic.pptx = Resources\07-06-SpreadOfEpidemic.pptx
+		Resources\07-07-BusinessTravelExpenses.pptx = Resources\07-07-BusinessTravelExpenses.pptx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +74,30 @@ Global
 		{ED54EC30-8260-40C8-8C08-4E8194E11E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED54EC30-8260-40C8-8C08-4E8194E11E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED54EC30-8260-40C8-8C08-4E8194E11E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9DAD3FC-3537-490B-AAF5-29A697684A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9DAD3FC-3537-490B-AAF5-29A697684A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9DAD3FC-3537-490B-AAF5-29A697684A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9DAD3FC-3537-490B-AAF5-29A697684A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E9578DD-A61D-4C18-A1CC-EFC38AA3B2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9578DD-A61D-4C18-A1CC-EFC38AA3B2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9578DD-A61D-4C18-A1CC-EFC38AA3B2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9578DD-A61D-4C18-A1CC-EFC38AA3B2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F51EE8BB-FD9C-4B83-880E-DE6B6D0DECDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F51EE8BB-FD9C-4B83-880E-DE6B6D0DECDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F51EE8BB-FD9C-4B83-880E-DE6B6D0DECDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F51EE8BB-FD9C-4B83-880E-DE6B6D0DECDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E473B1A1-E654-474F-9581-D9B690932D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E473B1A1-E654-474F-9581-D9B690932D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E473B1A1-E654-474F-9581-D9B690932D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E473B1A1-E654-474F-9581-D9B690932D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FAD28FB-BCF1-41A8-A946-0FD475A798FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FAD28FB-BCF1-41A8-A946-0FD475A798FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FAD28FB-BCF1-41A8-A946-0FD475A798FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FAD28FB-BCF1-41A8-A946-0FD475A798FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC277A5D-EE95-4A17-A40A-4C281B746253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC277A5D-EE95-4A17-A40A-4C281B746253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC277A5D-EE95-4A17-A40A-4C281B746253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC277A5D-EE95-4A17-A40A-4C281B746253}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
