@@ -3,17 +3,54 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30709.132
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GradePointAverage", "GradePointAverage\GradePointAverage.vbproj", "{5C64D2E7-FA2E-44FE-8C94-748D12B42DC5}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "GradePointAverage", "GradePointAverage\GradePointAverage.vbproj", "{5C64D2E7-FA2E-44FE-8C94-748D12B42DC5}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RestaurantBill", "RestaurantBill\RestaurantBill.vbproj", "{6F0478E0-6C01-4DCC-8A81-E787DF9B0094}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "RestaurantBill", "RestaurantBill\RestaurantBill.vbproj", "{6F0478E0-6C01-4DCC-8A81-E787DF9B0094}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FurnitureOrder", "FurnitureOrder\FurnitureOrder.vbproj", "{3E069AAE-B277-454A-9E3B-2D9350E1A06A}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "FurnitureOrder", "FurnitureOrder\FurnitureOrder.vbproj", "{3E069AAE-B277-454A-9E3B-2D9350E1A06A}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Proverbs", "Proverbs\Proverbs.vbproj", "{B8CACEE0-1D27-4F07-BFF3-DAF666F6D610}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Proverbs", "Proverbs\Proverbs.vbproj", "{B8CACEE0-1D27-4F07-BFF3-DAF666F6D610}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "StickGame", "StickGame\StickGame.vbproj", "{718E4B93-4FEE-4CC3-8120-5464869CAD52}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "StickGame", "StickGame\StickGame.vbproj", "{718E4B93-4FEE-4CC3-8120-5464869CAD52}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LoanCalculator", "LoanCalculator\LoanCalculator.vbproj", "{F05DE9E7-7EAA-4BED-8218-7ED51E823B64}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "LoanCalculator", "LoanCalculator\LoanCalculator.vbproj", "{F05DE9E7-7EAA-4BED-8218-7ED51E823B64}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CaffeineAbsorbtion", "CaffeineAbsorbtion\CaffeineAbsorbtion.vbproj", "{9C190E01-AD56-44B5-994E-2C31D22DB741}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Rule72", "Rule72\Rule72.vbproj", "{73BF64FC-7E5A-45E3-AACC-DBB8FE01DEA1}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ProjectileMotion", "ProjectileMotion\ProjectileMotion.vbproj", "{127D36EA-F778-461D-AC24-82A6FE7119AC}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Depreciation", "Depreciation\Depreciation.vbproj", "{A73DA423-4FC4-4F01-8CD2-D19E44004321}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AlphabeticalOrder", "AlphabeticalOrder\AlphabeticalOrder.vbproj", "{F9A3BCAD-D590-4580-928A-BB7DE5DA6956}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Parantheses", "Parantheses\Parantheses.vbproj", "{D4B3DD31-9C13-45DC-A4A0-1637C43C5869}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Palindrome", "Palindrome\Palindrome.vbproj", "{DB79783C-D8B3-443C-A329-0C65C1879143}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IndividualRetirementAccounts", "IndividualRetirementAccounts\IndividualRetirementAccounts.vbproj", "{B9AB1BFD-3B71-4C50-9AA7-CC0DBFA437ED}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BinarySearch", "BinarySearch\BinarySearch.vbproj", "{0B06B8D6-72F8-4D7E-8B42-0DBD88FFE44F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{178A6ADC-0B33-48FB-9BAD-EC3001AD0B08}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\03-01-GradePointAverage.pptx = Resources\03-01-GradePointAverage.pptx
+		Resources\03-02-RestaurantBill.pptx = Resources\03-02-RestaurantBill.pptx
+		Resources\03-03-FurnitureOrder.pptx = Resources\03-03-FurnitureOrder.pptx
+		Resources\03-04-Proverbs.pptx = Resources\03-04-Proverbs.pptx
+		Resources\03-05-StickGame.pptx = Resources\03-05-StickGame.pptx
+		Resources\03-06-LoanCalculator.pptx = Resources\03-06-LoanCalculator.pptx
+		Resources\04-01-CaffeineAbsorbtion.pptx = Resources\04-01-CaffeineAbsorbtion.pptx
+		Resources\04-02-RuleOf72.pptx = Resources\04-02-RuleOf72.pptx
+		Resources\04-03-ProjectileMotion.pptx = Resources\04-03-ProjectileMotion.pptx
+		Resources\04-04-Depreciation.pptx = Resources\04-04-Depreciation.pptx
+		Resources\04-05-AlphabeticalOrder.pptx = Resources\04-05-AlphabeticalOrder.pptx
+		Resources\04-06-Parantheses.pptx = Resources\04-06-Parantheses.pptx
+		Resources\04-07-Palindrome.pptx = Resources\04-07-Palindrome.pptx
+		Resources\04-08-IRA.pptx = Resources\04-08-IRA.pptx
+		Resources\04-09-BinarySearch.pptx = Resources\04-09-BinarySearch.pptx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +82,42 @@ Global
 		{F05DE9E7-7EAA-4BED-8218-7ED51E823B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F05DE9E7-7EAA-4BED-8218-7ED51E823B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F05DE9E7-7EAA-4BED-8218-7ED51E823B64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C190E01-AD56-44B5-994E-2C31D22DB741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C190E01-AD56-44B5-994E-2C31D22DB741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C190E01-AD56-44B5-994E-2C31D22DB741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C190E01-AD56-44B5-994E-2C31D22DB741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73BF64FC-7E5A-45E3-AACC-DBB8FE01DEA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73BF64FC-7E5A-45E3-AACC-DBB8FE01DEA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73BF64FC-7E5A-45E3-AACC-DBB8FE01DEA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73BF64FC-7E5A-45E3-AACC-DBB8FE01DEA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{127D36EA-F778-461D-AC24-82A6FE7119AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127D36EA-F778-461D-AC24-82A6FE7119AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127D36EA-F778-461D-AC24-82A6FE7119AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127D36EA-F778-461D-AC24-82A6FE7119AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A73DA423-4FC4-4F01-8CD2-D19E44004321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73DA423-4FC4-4F01-8CD2-D19E44004321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73DA423-4FC4-4F01-8CD2-D19E44004321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73DA423-4FC4-4F01-8CD2-D19E44004321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A3BCAD-D590-4580-928A-BB7DE5DA6956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A3BCAD-D590-4580-928A-BB7DE5DA6956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A3BCAD-D590-4580-928A-BB7DE5DA6956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A3BCAD-D590-4580-928A-BB7DE5DA6956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B3DD31-9C13-45DC-A4A0-1637C43C5869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B3DD31-9C13-45DC-A4A0-1637C43C5869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B3DD31-9C13-45DC-A4A0-1637C43C5869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B3DD31-9C13-45DC-A4A0-1637C43C5869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB79783C-D8B3-443C-A329-0C65C1879143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB79783C-D8B3-443C-A329-0C65C1879143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB79783C-D8B3-443C-A329-0C65C1879143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB79783C-D8B3-443C-A329-0C65C1879143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9AB1BFD-3B71-4C50-9AA7-CC0DBFA437ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AB1BFD-3B71-4C50-9AA7-CC0DBFA437ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AB1BFD-3B71-4C50-9AA7-CC0DBFA437ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AB1BFD-3B71-4C50-9AA7-CC0DBFA437ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B06B8D6-72F8-4D7E-8B42-0DBD88FFE44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B06B8D6-72F8-4D7E-8B42-0DBD88FFE44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B06B8D6-72F8-4D7E-8B42-0DBD88FFE44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B06B8D6-72F8-4D7E-8B42-0DBD88FFE44F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
