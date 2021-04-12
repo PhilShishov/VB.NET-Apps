@@ -10,6 +10,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="bin\Debug\net5.0-windows\Mileage.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Import Include="System.Data" />
     <Import Include="System.Drawing" />
     <Import Include="System.Windows.Forms" />
