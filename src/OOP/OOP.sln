@@ -3,7 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30709.132
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{629BFF97-3DB1-4384-82A5-0D80CB22CD08}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\09-01-BankAccount.pptx = Resources\09-01-BankAccount.pptx
+		Resources\09-02-BlackJack.pptx = Resources\09-02-BlackJack.pptx
+		Resources\09-CruiseSelectionWizard.pdf = Resources\09-CruiseSelectionWizard.pdf
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BankAccount", "BankAccount\BankAccount.vbproj", "{DE231C0C-A015-4CCA-B4FE-BB04962BD0B6}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BlackJack", "BlackJack\BlackJack.vbproj", "{85D46DA5-57CC-4D59-8B6E-5DEDA77A3A8B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CruiseSelectionWizard", "CruiseSelectionWizard\CruiseSelectionWizard.vbproj", "{BE832AF7-3862-4638-82FA-5B1E03E54ACF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE231C0C-A015-4CCA-B4FE-BB04962BD0B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE231C0C-A015-4CCA-B4FE-BB04962BD0B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE231C0C-A015-4CCA-B4FE-BB04962BD0B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE231C0C-A015-4CCA-B4FE-BB04962BD0B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85D46DA5-57CC-4D59-8B6E-5DEDA77A3A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D46DA5-57CC-4D59-8B6E-5DEDA77A3A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D46DA5-57CC-4D59-8B6E-5DEDA77A3A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D46DA5-57CC-4D59-8B6E-5DEDA77A3A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE832AF7-3862-4638-82FA-5B1E03E54ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE832AF7-3862-4638-82FA-5B1E03E54ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE832AF7-3862-4638-82FA-5B1E03E54ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE832AF7-3862-4638-82FA-5B1E03E54ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
