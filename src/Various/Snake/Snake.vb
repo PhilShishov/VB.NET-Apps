@@ -60,7 +60,10 @@
     End Sub
 
     Public Sub PlaceFood()
-        Console.Beep(900, 50)
+        If (OperatingSystem.IsWindows()) Then
+            Console.Beep(900, 50)
+        End If
+
         Dim isCollision As Boolean = True
         While (isCollision)
             food.X = random.Next(Console.WindowWidth / 2)
