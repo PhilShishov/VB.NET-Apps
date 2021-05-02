@@ -22,10 +22,12 @@ Partial Class ElevatorForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.lblFloorNumber = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.pnlElevator = New System.Windows.Forms.Panel()
         Me.lblPassengers = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.pnlElevator.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -70,6 +72,11 @@ Partial Class ElevatorForm
         Me.lblPassengers.TabIndex = 0
         Me.lblPassengers.Text = "0"
         '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 2000
+        '
         'ElevatorForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -92,4 +99,5 @@ Partial Class ElevatorForm
     Friend WithEvents Label1 As Label
     Friend WithEvents pnlElevator As Panel
     Friend WithEvents lblPassengers As Label
+    Friend WithEvents Timer1 As Timer
 End Class
