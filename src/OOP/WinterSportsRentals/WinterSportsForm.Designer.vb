@@ -22,6 +22,7 @@ Partial Class WinterSportsForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.txtDeposit = New System.Windows.Forms.TextBox()
         Me.btnClose = New System.Windows.Forms.Button()
         Me.btnCalculate = New System.Windows.Forms.Button()
@@ -40,6 +41,8 @@ Partial Class WinterSportsForm
         Me.cboDuration = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.lstEquipment = New System.Windows.Forms.ListBox()
+        Me.errProvider = New System.Windows.Forms.ErrorProvider(Me.components)
+        CType(Me.errProvider, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txtDeposit
@@ -234,6 +237,10 @@ Partial Class WinterSportsForm
         Me.lstEquipment.Size = New System.Drawing.Size(194, 139)
         Me.lstEquipment.TabIndex = 19
         '
+        'errProvider
+        '
+        Me.errProvider.ContainerControl = Me
+        '
         'WinterSportsForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -260,6 +267,7 @@ Partial Class WinterSportsForm
         Me.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Name = "WinterSportsForm"
         Me.Text = "Winter Sports Rentals"
+        CType(Me.errProvider, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -283,4 +291,5 @@ Partial Class WinterSportsForm
     Friend WithEvents cboDuration As ComboBox
     Friend WithEvents Label1 As Label
     Friend WithEvents lstEquipment As ListBox
+    Friend WithEvents errProvider As ErrorProvider
 End Class

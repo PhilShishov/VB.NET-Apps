@@ -99,7 +99,7 @@ Partial Class WeatherForecastForm
         Me.Controls.Add(Me.WebBrowser1)
         Me.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Name = "WeatherForecastForm"
-        Me.Text = "frmWeatherForecast"
+        Me.Text = "Weather Forecast"
         Me.ToolStrip1.ResumeLayout(False)
         Me.ToolStrip1.PerformLayout()
         Me.ResumeLayout(False)
