@@ -2,7 +2,7 @@
 
 Public Class BankTellerForm
     Private currAccount As Account
-    Private ReadOnly filePath As String = "..\..\accounts.dat"
+    Private ReadOnly filePath As String = "..\..\..\accounts.dat"
 
     Private Sub btnFind_Click(sender As Object, e As EventArgs) Handles btnFind.Click
         currAccount = New Account() With {
@@ -32,6 +32,8 @@ Public Class BankTellerForm
         Try
             currAccount.Deposit(CDec(txtAmount.Text))
             lblBalance.Text = currAccount.Balance.ToString("c")
+        Catch ex As ArgumentException
+            MessageBox.Show(ex.Message, "Error")
         Catch ex As Exception
             MessageBox.Show("Please enter a numeric deposit amount", "Error")
         End Try
@@ -44,6 +46,8 @@ Public Class BankTellerForm
             Else
                 MessageBox.Show(currAccount.ErrorMsg, "Error")
             End If
+        Catch ex As ArgumentException
+            MessageBox.Show(ex.Message, "Error")
         Catch ex As Exception
             MessageBox.Show("Please enter a numeric withdrawal amount", "Error")
         End Try

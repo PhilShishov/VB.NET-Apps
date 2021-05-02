@@ -87,18 +87,26 @@ Public Class Account
     End Function
 
     Public Sub Deposit(amount As Decimal)
-        Balance += amount
-        _totalDeposits += amount
+        If amount < 0 Then
+            Throw New ArgumentException("Deposit must be a positive value.")
+        Else
+            Balance += amount
+            _totalDeposits += amount
+        End If
     End Sub
 
     Public Function Withdraw(amount As Decimal) As Boolean
-        If amount <= Balance Then
+
+        If amount < 0 Then
+            Throw New ArgumentException("Withdrawal must be a positive value.")
+        ElseIf amount > Balance Then
+            Throw New ArgumentException("Insufficient funds for withdrawal.")
+        Else
             Balance -= amount
             _totalWithdrawals += amount
             Return True
-        Else
-            ErrorMsg = "Balance is too low to withdraw the requested amount"
-            Return False
         End If
+
+        Return False
     End Function
 End Class
