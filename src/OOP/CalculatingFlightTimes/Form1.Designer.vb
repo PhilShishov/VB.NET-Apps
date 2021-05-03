@@ -22,6 +22,7 @@ Partial Class FlightsForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.txtDepartureTime = New System.Windows.Forms.TextBox()
         Me.lblArriveWhen = New System.Windows.Forms.Label()
         Me.btnContinue = New System.Windows.Forms.Button()
@@ -33,6 +34,8 @@ Partial Class FlightsForm
         Me.Label1 = New System.Windows.Forms.Label()
         Me.cboArrivalAirport = New System.Windows.Forms.ComboBox()
         Me.cboDepartureAirport = New System.Windows.Forms.ComboBox()
+        Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txtDepartureTime
@@ -140,6 +143,10 @@ Partial Class FlightsForm
         Me.cboDepartureAirport.Size = New System.Drawing.Size(149, 23)
         Me.cboDepartureAirport.TabIndex = 17
         '
+        'ErrorProvider1
+        '
+        Me.ErrorProvider1.ContainerControl = Me
+        '
         'FlightsForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -159,6 +166,7 @@ Partial Class FlightsForm
         Me.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Name = "FlightsForm"
         Me.Text = "Schedule a Flight"
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -175,4 +183,5 @@ Partial Class FlightsForm
     Friend WithEvents Label1 As Label
     Friend WithEvents cboArrivalAirport As ComboBox
     Friend WithEvents cboDepartureAirport As ComboBox
+    Friend WithEvents ErrorProvider1 As ErrorProvider
 End Class
