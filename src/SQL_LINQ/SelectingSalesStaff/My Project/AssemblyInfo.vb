@@ -12,13 +12,13 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("SelectingSalesStaff")>
-<Assembly: AssemblyCopyright("Copyright ©  2021")>
+<Assembly: AssemblyCopyright("Copyright ©  2019")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("4e60d778-c221-4676-896e-57808d6550b5")>
+<Assembly: Guid("9d5d4d0f-b127-4a68-9313-4b7e1536f4da")>
 
 ' Version information for an assembly consists of the following four values:
 '
