@@ -1,0 +1,48 @@
+LK00260
+Tri-Fin Surfboard, high-performance
+45
+250
+600
+5
+AB00300
+Downhill Snow Skis
+35
+225
+550
+10
+MN10040
+Ocean Kayak, solo
+60
+250
+750
+4
+MN10042
+Ocean Kayak, tandem
+60
+250
+750
+4
+SC00021
+Scuba outfit, adult deluxe
+40
+210
+500
+6
+SC00022
+Scuba outfit, adult standard
+30
+185
+400
+12
+SF00033
+Snorkeling outfit, standard
+10
+40
+90
+18
+SF00034
+Snorkeling outfit, deluxe
+15
+55
+120
+15
