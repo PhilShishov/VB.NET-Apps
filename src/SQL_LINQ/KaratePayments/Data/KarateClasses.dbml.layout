@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="KarateClasses">
+  <DataContextMoniker Name="/KarateClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="bba004bb-a870-4f14-bd26-a751ad5a50cc" absoluteBounds="3.25, 2.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/KarateClassesDataContext/Payment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="96b0cf05-73a1-4a08-b648-7e193ad08f0d" absoluteBounds="3.265, 2.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="643ad619-21e6-486e-8b39-5289da5fa4a8" absoluteBounds="3.25, 4.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/KarateClassesDataContext/Member" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d8be6c3c-e3a0-41b7-849c-461e05893bd6" absoluteBounds="3.2649999999999997, 4.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.25 : 4.25); (4.25 : 3.70359537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/KarateClassesDataContext/Member/Member_Payment" />
+      <nodes>
+        <classShapeMoniker Id="643ad619-21e6-486e-8b39-5289da5fa4a8" />
+        <classShapeMoniker Id="bba004bb-a870-4f14-bd26-a751ad5a50cc" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
