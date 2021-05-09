@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class AccountsForm
+Partial Class MainForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -130,7 +130,7 @@ Partial Class AccountsForm
         Me.txtId.Size = New System.Drawing.Size(88, 23)
         Me.txtId.TabIndex = 10
         '
-        'AccountsForm
+        'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -146,7 +146,7 @@ Partial Class AccountsForm
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtId)
         Me.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Name = "AccountsForm"
+        Me.Name = "MainForm"
         Me.Text = "Accounts Dictionary"
         Me.ResumeLayout(False)
         Me.PerformLayout()
