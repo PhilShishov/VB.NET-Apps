@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>BankTellerTransactionLog</RootNamespace>
-    <StartupObject>Sub Main</StartupObject>
+    <StartupObject>BankTellerTransactionLog.MainForm</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
   </PropertyGroup>

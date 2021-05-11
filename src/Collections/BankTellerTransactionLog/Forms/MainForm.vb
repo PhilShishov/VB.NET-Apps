@@ -2,8 +2,8 @@
 
 Public Class MainForm
     Private currAccount As Account
-    Private ReadOnly filePath As String = "..\..\accounts.dat"
-    Private transactions As New List(Of Transaction)
+    Private ReadOnly filePath As String = "..\..\..\accounts.dat"
+    Private transactions As New TransactionLog
 
     Private Sub btnFind_Click(sender As Object, e As EventArgs) Handles btnFind.Click
         currAccount = New Account() With {
@@ -20,13 +20,6 @@ Public Class MainForm
             Clear()
         End If
 
-    End Sub
-
-    Private Sub Clear()
-        lblAccountName.Text = String.Empty
-        lblBalance.Text = String.Empty
-        btnDeposit.Enabled = False
-        btnWithdraw.Enabled = False
     End Sub
 
     Private Sub btnDeposit_Click(sender As Object, e As EventArgs) Handles btnDeposit.Click
@@ -89,15 +82,23 @@ Public Class MainForm
     End Sub
 
     Private Sub btnTransaction_Click(sender As Object, e As EventArgs) Handles btnTransaction.Click
-        Transactions.lstTransactions.Items.Clear()
-        For Each trans As Transaction In transactions
-            Transactions.lstTransactions.Items.Add(trans.ToString())
+        transactions.Save()
+        TransactionsForm.lstTransactions.Items.Clear()
+        For Each trans As Transaction In transactions.Items
+            TransactionsForm.lstTransactions.Items.Add(trans.ToString())
         Next
-        Transactions.ShowDialog()
+        TransactionsForm.ShowDialog()
     End Sub
 
     Private Sub AddTransaction(amount As Decimal)
         Dim tran As New Transaction(currAccount.AccountId, Now, amount, currAccount.Balance)
         transactions.Add(tran)
+    End Sub
+
+    Private Sub Clear()
+        lblAccountName.Text = String.Empty
+        lblBalance.Text = String.Empty
+        btnDeposit.Enabled = False
+        btnWithdraw.Enabled = False
     End Sub
 End Class
