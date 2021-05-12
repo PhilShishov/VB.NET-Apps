@@ -22,6 +22,7 @@ Partial Class CourseForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.btnClose = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
@@ -35,7 +36,9 @@ Partial Class CourseForm
         Me.lstCourses = New System.Windows.Forms.ListBox()
         Me.lblStudent = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.errProvider = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.GroupBox1.SuspendLayout()
+        CType(Me.errProvider, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnClose
@@ -79,7 +82,7 @@ Partial Class CourseForm
         'txtCourseNumber
         '
         Me.txtCourseNumber.Location = New System.Drawing.Point(169, 38)
-        Me.txtCourseNumber.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.txtCourseNumber.Margin = New System.Windows.Forms.Padding(5)
         Me.txtCourseNumber.Name = "txtCourseNumber"
         Me.txtCourseNumber.Size = New System.Drawing.Size(110, 23)
         Me.txtCourseNumber.TabIndex = 0
@@ -117,7 +120,7 @@ Partial Class CourseForm
         'txtGrade
         '
         Me.txtGrade.Location = New System.Drawing.Point(169, 76)
-        Me.txtGrade.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.txtGrade.Margin = New System.Windows.Forms.Padding(5)
         Me.txtGrade.Name = "txtGrade"
         Me.txtGrade.Size = New System.Drawing.Size(61, 23)
         Me.txtGrade.TabIndex = 2
@@ -125,7 +128,7 @@ Partial Class CourseForm
         'btnSave
         '
         Me.btnSave.Location = New System.Drawing.Point(342, 81)
-        Me.btnSave.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.btnSave.Margin = New System.Windows.Forms.Padding(5)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(85, 32)
         Me.btnSave.TabIndex = 3
@@ -135,7 +138,7 @@ Partial Class CourseForm
         'txtCredits
         '
         Me.txtCredits.Location = New System.Drawing.Point(376, 36)
-        Me.txtCredits.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.txtCredits.Margin = New System.Windows.Forms.Padding(5)
         Me.txtCredits.Name = "txtCredits"
         Me.txtCredits.Size = New System.Drawing.Size(51, 23)
         Me.txtCredits.TabIndex = 1
@@ -171,6 +174,10 @@ Partial Class CourseForm
         Me.Label4.TabIndex = 13
         Me.Label4.Text = "Student name:"
         '
+        'errProvider
+        '
+        Me.errProvider.ContainerControl = Me
+        '
         'CourseForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -188,6 +195,7 @@ Partial Class CourseForm
         Me.Text = "Course Information"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.errProvider, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -206,4 +214,5 @@ Partial Class CourseForm
     Friend WithEvents lstCourses As ListBox
     Friend WithEvents lblStudent As Label
     Friend WithEvents Label4 As Label
+    Friend WithEvents errProvider As ErrorProvider
 End Class

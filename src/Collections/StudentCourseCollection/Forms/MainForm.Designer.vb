@@ -61,7 +61,7 @@ Partial Class MainForm
         'txtFindId
         '
         Me.txtFindId.Location = New System.Drawing.Point(24, 270)
-        Me.txtFindId.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.txtFindId.Margin = New System.Windows.Forms.Padding(5)
         Me.txtFindId.Name = "txtFindId"
         Me.txtFindId.Size = New System.Drawing.Size(90, 23)
         Me.txtFindId.TabIndex = 23
@@ -79,7 +79,7 @@ Partial Class MainForm
         'txtAverage
         '
         Me.txtAverage.Location = New System.Drawing.Point(141, 93)
-        Me.txtAverage.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.txtAverage.Margin = New System.Windows.Forms.Padding(5)
         Me.txtAverage.Name = "txtAverage"
         Me.txtAverage.Size = New System.Drawing.Size(63, 23)
         Me.txtAverage.TabIndex = 18
@@ -136,7 +136,7 @@ Partial Class MainForm
         'txtIdNumber
         '
         Me.txtIdNumber.Location = New System.Drawing.Point(141, 22)
-        Me.txtIdNumber.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.txtIdNumber.Margin = New System.Windows.Forms.Padding(5)
         Me.txtIdNumber.Name = "txtIdNumber"
         Me.txtIdNumber.Size = New System.Drawing.Size(90, 23)
         Me.txtIdNumber.TabIndex = 14
@@ -154,7 +154,7 @@ Partial Class MainForm
         'txtLastName
         '
         Me.txtLastName.Location = New System.Drawing.Point(141, 58)
-        Me.txtLastName.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.txtLastName.Margin = New System.Windows.Forms.Padding(5)
         Me.txtLastName.Name = "txtLastName"
         Me.txtLastName.Size = New System.Drawing.Size(162, 23)
         Me.txtLastName.TabIndex = 16
