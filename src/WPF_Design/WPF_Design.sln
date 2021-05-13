@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AppSettings", "AppSettings\AppSettings.vbproj", "{ECF15603-91D8-41C5-A6CA-A1441B9BE45E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GridColsRows", "GridColsRows\GridColsRows.vbproj", "{7C06A418-7768-4844-BABA-45B7D0FEE670}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GroupAlign", "GroupAlign\GroupAlign.vbproj", "{F58FEDE8-6525-40A9-9468-79194967706A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GroupingControls", "GroupingControls\GroupingControls.vbproj", "{1425FE17-F38A-4646-B8E7-5D1273E6E659}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LayerControls", "LayerControls\LayerControls.vbproj", "{8664FB56-FA15-4329-B14C-DBA3B71E3EA3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MarginControls", "MarginControls\MarginControls.vbproj", "{114EB902-022D-4730-B815-F620AFA8E68E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RotateControls", "RotateControls\RotateControls.vbproj", "{4DF7483C-9101-46BC-9E63-1081C72F82C9}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Basics", "Basics\Basics.vbproj", "{7E432348-C98C-4762-A283-6DA8951E9EAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECF15603-91D8-41C5-A6CA-A1441B9BE45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF15603-91D8-41C5-A6CA-A1441B9BE45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF15603-91D8-41C5-A6CA-A1441B9BE45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF15603-91D8-41C5-A6CA-A1441B9BE45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C06A418-7768-4844-BABA-45B7D0FEE670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C06A418-7768-4844-BABA-45B7D0FEE670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C06A418-7768-4844-BABA-45B7D0FEE670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C06A418-7768-4844-BABA-45B7D0FEE670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F58FEDE8-6525-40A9-9468-79194967706A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58FEDE8-6525-40A9-9468-79194967706A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58FEDE8-6525-40A9-9468-79194967706A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58FEDE8-6525-40A9-9468-79194967706A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1425FE17-F38A-4646-B8E7-5D1273E6E659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1425FE17-F38A-4646-B8E7-5D1273E6E659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1425FE17-F38A-4646-B8E7-5D1273E6E659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1425FE17-F38A-4646-B8E7-5D1273E6E659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8664FB56-FA15-4329-B14C-DBA3B71E3EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8664FB56-FA15-4329-B14C-DBA3B71E3EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8664FB56-FA15-4329-B14C-DBA3B71E3EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8664FB56-FA15-4329-B14C-DBA3B71E3EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114EB902-022D-4730-B815-F620AFA8E68E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114EB902-022D-4730-B815-F620AFA8E68E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114EB902-022D-4730-B815-F620AFA8E68E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114EB902-022D-4730-B815-F620AFA8E68E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF7483C-9101-46BC-9E63-1081C72F82C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF7483C-9101-46BC-9E63-1081C72F82C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF7483C-9101-46BC-9E63-1081C72F82C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF7483C-9101-46BC-9E63-1081C72F82C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E432348-C98C-4762-A283-6DA8951E9EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E432348-C98C-4762-A283-6DA8951E9EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E432348-C98C-4762-A283-6DA8951E9EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E432348-C98C-4762-A283-6DA8951E9EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E81D1716-1BCA-4722-AE4B-0E35E08D5674}
+	EndGlobalSection
+EndGlobal
