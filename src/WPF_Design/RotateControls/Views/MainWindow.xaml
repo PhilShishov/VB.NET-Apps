@@ -1,0 +1,42 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RotateControls"
+        mc:Ignorable="d"
+        Title="Rotate Controls" Height="286.327" Width="415.847">
+    <Grid d:IsLocked="True">
+        <Button Content="Button" HorizontalAlignment="Left" Margin="76,66,0,0" VerticalAlignment="Top" Width="129" Height="41" RenderTransformOrigin="0.5,0.5" d:IsLocked="True">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="46.838"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="210,159,0,0" VerticalAlignment="Top" Height="36" Width="103" Background="#FFE6D0D0" RenderTransformOrigin="0.889,0.527" d:IsLocked="True">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-87.833"/>
+                    <TranslateTransform X="-37.581" Y="-40.975"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <ComboBox HorizontalAlignment="Left" Margin="54,197,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5" d:IsLocked="True">
+            <ComboBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="16.009"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ComboBox.RenderTransform>
+        </ComboBox>
+
+    </Grid>
+</Window>

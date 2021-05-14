@@ -1,0 +1,36 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LayerControls"
+        mc:Ignorable="d"
+        Title="Layer Controls" Height="345.907" Width="454.093">
+    <Grid>
+
+        <Label Content="First Name:" HorizontalAlignment="Left" Margin="10,174,0,0"
+            VerticalAlignment="Top" Visibility="Visible" Width="129" Background="White"/>
+
+        <Button Content="Hello World!" HorizontalAlignment="Left" Margin="58,77,0,0" 
+            VerticalAlignment="Top" Width="119" Height="38" Background="#FFF0F1E2"
+            BorderBrush="#FFEA2929" BorderThickness="11,1,13,0" Cursor="Hand"/>
+
+        <Label Content="Hello World!" HorizontalAlignment="Left" Margin="58,44,0,0" VerticalAlignment="Top" 
+            Background="#FFB8F5C0" BorderBrush="#FF150202" BorderThickness="1" Width="295" HorizontalContentAlignment="Center" Height="28" VerticalContentAlignment="Center" RenderTransformOrigin="0.5,0.5"/>
+        <TextBox HorizontalAlignment="Left" Height="43" Margin="92,174,0,0" Text="Hello World!" VerticalAlignment="Top" Width="164" 
+            Background="White" BorderBrush="#FFABADB3" CaretBrush="#FF010A00"
+            Foreground="Black" HorizontalScrollBarVisibility="Disabled" 
+            TextWrapping="Wrap" IsUndoEnabled="True" Visibility="Visible" VerticalScrollBarVisibility="Auto" AcceptsReturn="True"/>
+        <ComboBox HorizontalAlignment="Left" Margin="92,232,0,0" 
+            VerticalAlignment="Top" Width="164" Height="24"
+            Background="#FFEAA0A0" Cursor="Hand" Text="Select Item..." IsEditable="True" 
+            Visibility="Visible" MaxDropDownHeight="250" SelectedIndex="2">
+            <ComboBoxItem Content="Male" HorizontalAlignment="Left" Width="162"
+                Foreground="#FFE61A1A" Height="24" />
+            <ComboBoxItem Content="Female" HorizontalAlignment="Left" Width="162"/>
+            <ComboBoxItem Content="Girl" HorizontalAlignment="Left" Width="162"/>
+            <ComboBoxItem Content="Boy" HorizontalAlignment="Left" Width="162"/>
+        </ComboBox>
+
+    </Grid>
+</Window>

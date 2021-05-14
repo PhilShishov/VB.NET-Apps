@@ -1,0 +1,40 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GroupingControls"
+        mc:Ignorable="d"
+        Title="Grouping Controls" Height="436.544" Width="452.477">
+    <Grid>
+        <Grid Margin="31,21,39,76">
+            <Label Content="Company Title:" HorizontalAlignment="Left" VerticalAlignment="Top" Width="152" Background="White"/>
+            <Label Content="Manganer:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,28,0,0" Background="White"/>
+            <Label Content="Ads:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,56,0,0" Background="White"/>
+            <Label Content="Tel:" HorizontalAlignment="Left" Margin="0,84,0,0" VerticalAlignment="Top" Background="White"/>
+            <Label Content="Cell:" HorizontalAlignment="Left" Margin="0,112,0,0" VerticalAlignment="Top" Background="White"/>
+            <Label Content="Fax:" HorizontalAlignment="Left" Margin="0,140,0,0" VerticalAlignment="Top" Background="White"/>
+            <Label Content="Activity" HorizontalAlignment="Left" Margin="0,168,0,0" VerticalAlignment="Top" Background="White"/>
+            <Label Content="Email:" HorizontalAlignment="Left" Margin="0,196,0,0" VerticalAlignment="Top" Background="White"/>
+            <Label Content="Web Site:" HorizontalAlignment="Left" Margin="0,224,0,0" VerticalAlignment="Top" Background="White"/>
+            <Label Content="Address:" HorizontalAlignment="Left" Margin="0,252,0,0" VerticalAlignment="Top" Background="White"/>
+            <Label Content="Language:" HorizontalAlignment="Left" Margin="0,283,0,0" VerticalAlignment="Top" Background="White"/>
+
+            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="279" TabIndex="0" Margin="95,2,0,0"/>
+            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="279" TabIndex="1" Margin="95,30,0,0"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="95,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="279" TabIndex="2"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="95,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="279" TabIndex="3"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="95,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="279" TabIndex="4"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="95,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="279" TabIndex="5"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="95,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="279" TabIndex="6"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="95,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="279" TabIndex="7"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="95,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="279" TabIndex="8"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="95,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="279" TabIndex="9"/>
+            <ComboBox HorizontalAlignment="Left" Margin="95,284,0,0" VerticalAlignment="Top" Width="279" SelectedIndex="0" Cursor="Hand" TabIndex="10">
+                <ComboBoxItem Content="English" HorizontalAlignment="Left" Width="277"/>
+                <ComboBoxItem Content="Arabic" HorizontalAlignment="Left" Width="277"/>
+            </ComboBox>
+        </Grid>
+        <Button Content="Save Changes F5" HorizontalAlignment="Left" Margin="126,359,0,0" VerticalAlignment="Top" Width="279" Height="33" Cursor="Hand" TabIndex="11"/>
+    </Grid>
+</Window>
