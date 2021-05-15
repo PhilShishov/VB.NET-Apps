@@ -1,0 +1,22 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageLoading"
+        mc:Ignorable="d"
+        Title="Image Loading" Height="378.002" Width="440.288" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="61*"/>
+            <RowDefinition Height="286*"/>
+        </Grid.RowDefinitions>
+        <Image x:Name="img" Source="pack://application:,,,/Resources/koala_resized.jpg" Grid.Row="1"/>
+        <Button x:Name="btnLoad" Content="Load Image" HorizontalAlignment="Left" Margin="101,10,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
+        <Button x:Name="btnFill" Content="Fill" HorizontalAlignment="Left" Margin="234,10,0,0" VerticalAlignment="Top" Width="56" Height="20"/>
+        <Button x:Name="btnZoom" Content="Zoom" HorizontalAlignment="Left" Margin="295,10,0,0" VerticalAlignment="Top" Width="57" Height="20"/>
+        <Button x:Name="btnBrowse" Content="Browse" HorizontalAlignment="Left" Margin="29,10,0,0" VerticalAlignment="Top" Width="60" Height="20"/>
+        <Label x:Name="lblFileName" Content="" Margin="29,35,15,0" VerticalAlignment="Top" Height="25" BorderBrush="#FFC9BEBE" BorderThickness="1" Background="#FFFBFBFB" Padding="5,2,5,5"/>
+
+    </Grid>
+</Window>
