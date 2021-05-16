@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "ShapeInheritanceUI", "ShapeInheritanceUI\ShapeInheritanceUI.vbproj", "{BB9C4B16-B3CA-46F1-8EF7-B9FB67833B71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{1C780D34-05B8-45E9-97DF-448CDB2DA403}"
+	ProjectSection(SolutionItems) = preProject
+		..\Resources\03-ShapeInheritance.pdf = ..\Resources\03-ShapeInheritance.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB9C4B16-B3CA-46F1-8EF7-B9FB67833B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB9C4B16-B3CA-46F1-8EF7-B9FB67833B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB9C4B16-B3CA-46F1-8EF7-B9FB67833B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB9C4B16-B3CA-46F1-8EF7-B9FB67833B71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A601187-55AC-4501-8BAD-88FA6125B820}
+	EndGlobalSection
+EndGlobal
