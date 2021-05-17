@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "IntegerArrayLibrary", "IntegerArrayLibrary\IntegerArrayLibrary.vbproj", "{DA97CD48-3973-44CC-8A1A-243210684C62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{2046B036-A651-4BD9-85AC-99CDB5C81B81}"
+	ProjectSection(SolutionItems) = preProject
+		..\Resources\02-IntegerArrayLibrary.pdf = ..\Resources\02-IntegerArrayLibrary.pdf
+	EndProjectSection
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "IntegerArrayTest", "IntegerArrayTest\IntegerArrayTest.vbproj", "{CB904AA3-BD40-4C21-BD6C-3D4D3546DA8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA97CD48-3973-44CC-8A1A-243210684C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA97CD48-3973-44CC-8A1A-243210684C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA97CD48-3973-44CC-8A1A-243210684C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA97CD48-3973-44CC-8A1A-243210684C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB904AA3-BD40-4C21-BD6C-3D4D3546DA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB904AA3-BD40-4C21-BD6C-3D4D3546DA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB904AA3-BD40-4C21-BD6C-3D4D3546DA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB904AA3-BD40-4C21-BD6C-3D4D3546DA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A601187-55AC-4501-8BAD-88FA6125B820}
+	EndGlobalSection
+EndGlobal
